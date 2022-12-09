@@ -23,7 +23,8 @@ add_bg_from_local('1905040037.jpg')
 diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
 #judul web
-st.title('Anwar Nurudin 1905040037 Prediksi Diabetes')
+st.title('Anwar Nurudin 1905040037'
+         'Prediksi Diabetes')
 
 #bagi kolom
 col1,col2 = st.columns(2)
