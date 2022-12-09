@@ -23,21 +23,21 @@ add_bg_from_local('1905040037.jpg')
 diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
 #judul web
-st.title('DATA MINING PREDIKSI DIABETES')
+st.title('DATA MINING PREDIKSI DIABETES','Anwar Nurudin 1905040037')
 #bagi kolom
 col1,col2 = st.columns(2)
 
 with col1 :
-    Pregnancies = st.text_input ('input nilai Pregnancies')
-    Glocouse = st.text_input ('input nilai Glocouse')
-    BloodPresure = st.text_input ('input nilai BloodPresure')
-    SkinThickness = st.text_input ('input nilai SkinThickness')
+    Pregnancies = st.text_input ('Input nilai Pregnancies')
+    Glocouse = st.text_input ('Input nilai Glocouse')
+    BloodPresure = st.text_input ('Input nilai BloodPresure')
+    SkinThickness = st.text_input ('Input nilai SkinThickness')
 with col2 :
-    Insulin = st.text_input ('input nilai pregnancies')
-    BMI = st.text_input ('input nilai Insulin')
+    Insulin = st.text_input ('Input nilai pregnancies')
+    BMI = st.text_input ('Input nilai Insulin')
 
-    DiabetesPedigreeFunction =st.text_input('input nilai diabetes Pedigree function')
-    Age = st.text_input('input nilai Age')
+    DiabetesPedigreeFunction =st.text_input('Input nilai diabetes Pedigree function')
+    Age = st.text_input('Input nilai Age')
 
 # code untuk prediksi
 diab_diagnosis =''
